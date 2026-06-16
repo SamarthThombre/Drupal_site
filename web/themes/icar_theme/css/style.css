@@ -1,0 +1,37 @@
+body {
+  border-top: 10px solid red;
+  background-color: #fafafa;
+}
+
+.icar-topbar-wrapper {
+  background-color: #1a1a1a; /* Dark background matching the image */
+  color: #ffffff;
+  font-size: 0.85rem;
+  padding: 8px 20px;
+}
+
+.icar-topbar-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; /* This splits the left and right sides */
+  align-items: center;
+}
+
+/* Style the links inside the topbar */
+.icar-topbar-content a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0 5px;
+}
+
+.icar-topbar-content a:hover {
+  text-decoration: underline;
+}
+
+/* Add a little spacing around the divider pipes (|) */
+.topbar-left, .topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

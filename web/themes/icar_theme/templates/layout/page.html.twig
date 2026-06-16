@@ -1,0 +1,32 @@
+<div class="layout-container">
+
+  {# Your new Topbar region #}
+  {% if page.topbar %}
+    <div class="site-topbar">
+      {{ page.topbar }}
+    </div>
+  {% endif %}
+
+  <header class="site-header">
+    {{ page.header }}
+    {{ page.primary_menu }}
+  </header>
+
+  <main class="site-content">
+    <div class="main-content-area">
+      {{ page.content }}
+    </div>
+    
+    {# Only show the sidebar if it actually has content #}
+    {% if page.sidebar %}
+      <aside class="site-sidebar">
+        {{ page.sidebar }}
+      </aside>
+    {% endif %}
+  </main>
+
+  <footer class="site-footer">
+    {{ page.footer }}
+  </footer>
+
+</div>

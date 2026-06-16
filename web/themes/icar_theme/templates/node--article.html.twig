@@ -1,0 +1,30 @@
+<article class="icar-custom-article">
+  
+  {# 1. The Title #}
+  <header class="article-header">
+    <h1 class="article-title">{{ label }}</h1>
+  </header>
+
+  {# 2. The Metadata #}
+  <div class="article-meta">
+    <p>Published by <strong>{{ author_name }}</strong> on {{ date }}</p>
+  </div>
+
+  {# 3. The Image (if you added an image field) #}
+  {% if content.field_image %}
+    <div class="article-hero-image">
+      {{ content.field_image }}
+    </div>
+  {% endif %}
+
+  {# 4. The Main Body Text #}
+  <div class="article-body-content">
+    {{ content.body }}
+  </div>
+
+  {# 5. Everything else Drupal wants to print (tags, comments, etc.) #}
+  <div class="article-extras">
+    {{ content|without('field_image', 'body') }}
+  </div>
+
+</article>

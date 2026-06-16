@@ -1,0 +1,11 @@
+# Ignore configuration and user files
+sites/*/settings*.php
+sites/*/services*.yml
+sites/*/files
+sites/*/private
+
+# Ignore Composer dependencies (if you installed Drupal via Composer)
+vendor/
+
+# Ignore environment files
+.env
