@@ -1,0 +1,19 @@
+uuid: 2e4dc3fb-dcce-4159-ad63-8a39b8fd592f
+langcode: en
+status: false
+dependencies:
+  theme:
+    - icar_theme
+id: icar_theme_icarmainbanner
+theme: icar_theme
+region: header
+weight: -1
+provider: null
+plugin: 'block_content:3818c19d-f9db-4728-b712-cc4c71345366'
+settings:
+  id: 'block_content:3818c19d-f9db-4728-b712-cc4c71345366'
+  label: 'ICAR Main Banner '
+  label_display: '0'
+  provider: core
+  view_mode: full
+visibility: {  }

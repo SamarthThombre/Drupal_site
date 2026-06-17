@@ -1,0 +1,23 @@
+uuid: 1b805e86-c937-4f2d-8db2-5fd5f111620e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2d2a3574-7839-4d72-991f-294222a718b6'
+  module:
+    - block_content
+  theme:
+    - icar_theme
+id: icar_theme_headerrightlogogov
+theme: icar_theme
+region: header
+weight: -4
+provider: null
+plugin: 'block_content:2d2a3574-7839-4d72-991f-294222a718b6'
+settings:
+  id: 'block_content:2d2a3574-7839-4d72-991f-294222a718b6'
+  label: 'Header Right logo (Gov)'
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility: {  }

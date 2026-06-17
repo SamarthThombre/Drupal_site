@@ -1,0 +1,23 @@
+uuid: 641d959e-a2a5-4a67-bd3b-93676b862793
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:44aba649-0af8-442b-9d65-acd84d84531b'
+  module:
+    - block_content
+  theme:
+    - icar_theme
+id: icar_theme_topbarright
+theme: icar_theme
+region: topbar
+weight: 0
+provider: null
+plugin: 'block_content:44aba649-0af8-442b-9d65-acd84d84531b'
+settings:
+  id: 'block_content:44aba649-0af8-442b-9d65-acd84d84531b'
+  label: 'Top bar Right'
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility: {  }
