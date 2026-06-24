@@ -3,6 +3,8 @@ sites/*/settings*.php
 sites/*/services*.yml
 sites/*/files
 sites/*/private
+/web/sites/default/files/
+/web/sites/default/files/**
 
 # Ignore Composer dependencies (if you installed Drupal via Composer)
 vendor/
