@@ -1,0 +1,14 @@
+name: NSRI Theme
+type: theme
+description: Custom NSRI Theme
+core_version_requirement: ^10 || ^11
+base theme: olivero
+
+libraries:
+  - nsri_theme/global-styling
+
+regions:
+  header: Header
+  primary_menu: Primary menu
+  content: Content
+  footer: Footer
