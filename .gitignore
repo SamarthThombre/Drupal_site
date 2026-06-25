@@ -1,13 +1,7 @@
-# Ignore configuration and user files
-sites/*/settings*.php
-sites/*/services*.yml
-sites/*/files
-sites/*/private
 /web/sites/default/files/
-/web/sites/default/files/**
-
-# Ignore Composer dependencies (if you installed Drupal via Composer)
-vendor/
-
-# Ignore environment files
-.env
+/vendor/
+/web/core/assets/vendor/
+/web/core/modules/package_manager/tests/fixtures/fake_site/vendor/
+/web/core/themes/stable9/css/core/assets/
+/web/sites/default/settings.php
+/.ddev/db_snapshots/
