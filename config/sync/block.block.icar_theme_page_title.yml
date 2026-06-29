@@ -1,0 +1,20 @@
+uuid: f77648c6-11db-4181-ab02-6919f7535a36
+langcode: en
+status: false
+dependencies:
+  theme:
+    - icar_theme
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: icar_theme_page_title
+theme: icar_theme
+region: topbar
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

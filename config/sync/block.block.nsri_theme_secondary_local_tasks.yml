@@ -1,0 +1,22 @@
+uuid: 633beae6-08a6-46e8-bab2-431f67cb225b
+langcode: en
+status: false
+dependencies:
+  theme:
+    - nsri_theme
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: nsri_theme_secondary_local_tasks
+theme: nsri_theme
+region: header
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

@@ -816,3 +816,386 @@ body {
   width: 100%;
   display: block;
 }
+.about-director {
+  width: 90%;
+  margin: -35px auto 45px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.15);
+  padding: 22px 28px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 45px;
+}
+
+.home-about h2,
+.director h2 {
+  color: #005522;
+  font-size: 24px;
+  margin: 0 0 18px;
+}
+
+.about-row {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 22px;
+  align-items: start;
+}
+
+.about-row img {
+  width: 260px;
+  height: 145px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.about-row p {
+  font-size: 14px;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.director-row {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 22px;
+  align-items: start;
+}
+
+.director-row img {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.director-row h3 {
+  font-size: 18px;
+  margin: 0 0 4px;
+  color: #000;
+}
+
+.director-row b {
+  font-size: 13px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.director-row p {
+  font-size: 12px;
+  line-height: 1.45;
+  margin: 0 0 12px;
+}
+
+.quick-facts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin: 18px 0;
+}
+
+.quick-facts span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #005522;
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+.quick-facts img {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+}
+
+.btn {
+  display: inline-block;
+  background: #005522;
+  color: #fff !important;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none !important;
+  font-weight: bold;
+  font-size: 13px;
+}
+.nsri-info-card {
+  width: 96%;
+  margin: -35px auto 45px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 22px rgba(0,0,0,0.16);
+  padding: 28px 32px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 55px;
+}
+
+.nsri-info-card h2 {
+  color: #005522;
+  font-size: 34px;
+  margin: 0 0 26px;
+  font-weight: 800;
+}
+
+.nsri-about-main {
+  display: grid;
+  grid-template-columns: 270px 1fr;
+  gap: 26px;
+  align-items: center;
+}
+
+.nsri-about-main img {
+  width: 270px;
+  height: 185px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.nsri-about-main p {
+  font-size: 20px;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.nsri-director-main {
+  display: grid;
+  grid-template-columns: 290px 1fr;
+  gap: 35px;
+}
+
+.nsri-director-main > img {
+  width: 290px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.nsri-director-main h3 {
+  font-size: 28px;
+  margin: 15px 0 12px;
+}
+
+.nsri-director-main h4 {
+  font-size: 18px;
+  margin: 0 0 22px;
+}
+
+.nsri-director-main p {
+  font-size: 20px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.nsri-facts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin: 35px 0 32px;
+}
+
+.fact {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-right: 1px solid #ddd;
+}
+
+.fact:last-child {
+  border-right: none;
+}
+
+.fact-icon {
+  font-size: 42px;
+}
+
+.fact img {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+}
+
+.fact p {
+  color: #005522;
+  font-size: 18px;
+  line-height: 1.3;
+  margin: 0;
+  font-weight: 700;
+}
+
+.nsri-btn {
+  display: inline-block;
+  background: #005522;
+  color: #fff !important;
+  padding: 14px 28px;
+  border-radius: 5px;
+  text-decoration: none !important;
+  font-size: 18px;
+  font-weight: bold;
+}
+.research-hero {
+  height: 250px;
+  background: url("/themes/icar_theme/images/research-banner.jpg") center center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #005522;
+}
+
+.research-hero h1 {
+  font-size: 42px;
+  margin: 0 0 8px;
+}
+
+.research-hero p {
+  font-size: 22px;
+  color: #000;
+  line-height: 1.4;
+}
+
+.research-breadcrumb {
+  width: 72%;
+  margin: 14px auto;
+  font-size: 13px;
+}
+
+.research-breadcrumb a {
+  color: #005522;
+  text-decoration: none;
+}
+
+.research-page {
+  width: 72%;
+  margin: 0 auto 50px;
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 22px;
+}
+
+.research-sidebar {
+  border: 1px solid #ccc;
+  height: fit-content;
+  background: #fff;
+}
+
+.research-sidebar h3 {
+  background: #005522;
+  color: #fff;
+  padding: 14px 18px;
+  margin: 0;
+  font-size: 18px;
+}
+
+.research-sidebar a {
+  display: block;
+  padding: 12px 18px;
+  border-bottom: 1px solid #ddd;
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.research-sidebar a:hover,
+.research-sidebar a.active {
+  background: #e3f1d8;
+  color: #005522;
+  font-weight: bold;
+}
+
+.research-main {
+  min-width: 0;
+}
+
+.research-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 18px;
+}
+
+.research-box,
+.project-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  padding: 18px;
+}
+
+.research-box h2,
+.project-box h2 {
+  color: #005522;
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+
+.research-box p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+.research-box button,
+.view-projects button {
+  float: right;
+  background: #005522;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.research-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.research-table th {
+  background: #e4efd9;
+  color: #005522;
+  padding: 10px;
+  border: 1px solid #bbb;
+}
+
+.research-table td {
+  padding: 10px;
+  border: 1px solid #bbb;
+  vertical-align: top;
+}
+
+.section-row td {
+  font-weight: bold;
+  background: #fafafa;
+  color: #000;
+}
+
+.view-projects {
+  margin-top: 18px;
+  text-align: right;
+}
+
+.view-projects button {
+  float: none;
+}
+
+@media (max-width: 1000px) {
+  .research-page {
+    width: 95%;
+    grid-template-columns: 1fr;
+  }
+
+  .research-top {
+    grid-template-columns: 1fr;
+  }
+
+  .research-breadcrumb {
+    width: 95%;
+  }
+
+  .research-table {
+    font-size: 12px;
+  }
+}

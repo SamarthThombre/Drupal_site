@@ -1,0 +1,22 @@
+uuid: cc9ea830-e50a-4ccb-b2bc-6b9189f23674
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - nsri_theme
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: nsri_theme_help
+theme: nsri_theme
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }
