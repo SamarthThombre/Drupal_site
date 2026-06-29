@@ -1,0 +1,23 @@
+uuid: 55d4386f-bf26-4845-a15d-26bcc86445d0
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - icar_theme
+_core:
+  default_config_hash: pbbed0hdqGDF-_QWVVTWRAwgDIotFuAvWH5mWUZu0fA
+id: icar_theme_search_form_wide
+theme: icar_theme
+region: topbar
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: null
+visibility: {  }

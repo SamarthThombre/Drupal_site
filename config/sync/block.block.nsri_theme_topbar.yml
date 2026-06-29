@@ -1,0 +1,23 @@
+uuid: 3b4a039e-daa0-404f-88bc-c919fd912c96
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:b3ca2ece-3551-442d-9b2b-ea46e256f308'
+  module:
+    - block_content
+  theme:
+    - nsri_theme
+id: nsri_theme_topbar
+theme: nsri_theme
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:b3ca2ece-3551-442d-9b2b-ea46e256f308'
+settings:
+  id: 'block_content:b3ca2ece-3551-442d-9b2b-ea46e256f308'
+  label: 'Top bar'
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility: {  }

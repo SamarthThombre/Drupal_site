@@ -1,0 +1,22 @@
+uuid: 2725f3a0-360d-4638-a7e2-8922fedb1c87
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - nsri_theme
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: nsri_theme_breadcrumbs
+theme: nsri_theme
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }
