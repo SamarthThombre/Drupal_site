@@ -2,5 +2,5 @@ global-styling:
   css:
     theme:
       css/style.css: {}
-
-      
+      css/faq.css: {}
+      css/aicrps.css: {}
